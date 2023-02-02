@@ -2,6 +2,10 @@
 
 Using create-react-app and uuid for implementing a small app with hooks
 
+# Commit with small example of reducer and context hook
+
+# Commit with using custom hook to call context
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
