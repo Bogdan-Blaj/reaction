@@ -1,3 +1,7 @@
+# Second small App with React Hooks
+
+Using create-react-app and uuid for implementing a small app with hooks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
