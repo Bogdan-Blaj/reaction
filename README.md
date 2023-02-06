@@ -6,6 +6,27 @@ Using create-react-app and uuid for implementing a small app with hooks
 
 # Commit with using custom hook to call context
 
+UseReducer - this hooks allows you to apply the reducer pattern to your application and components. With a reducer, you call pull out your state data into one centralized object for the entire app. Based on dispatching action objects to the reducer, it will collect data and adapt the application state over time.
+
+UseContext - with this hook, you can apply a React context object to a tree of React components. The nested components in that tree will have the ability to reference shared objects and data contained in that context object.
+
+Pub/Sub - the publish/subscribe software pattern allows you to set up a network based on channels. Publishers send messages across those channels. And subscribers pick up those messages.
+
+# Creating reducer
+Create type
+Create Action
+Create Reducer and add initial state values
+
+# Using the reducer
+Import context
+Import Action
+And dispatch it
+`const {dispatch} = useAppContext();`
+    `const updateUserName = event => {`
+        `dispatch(setUsername(event.target.value))`
+    `}`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
